@@ -116,7 +116,7 @@ var newArr =[];
 function init(){
 
   newArr =[];
-  for(let i=0; i<300; i++){
+  for(let i=0; i<1500; i++){
   var radius = Math.random() * 3 + 1;
   let x = Math.random() * (innerWidth - radius * 2) + radius;
   let dx = (Math.random() - 0.5)*2.5;
